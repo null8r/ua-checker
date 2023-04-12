@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head prefix="og:http://ogp.me/ns#">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP">
+    <link rel="stylesheet" href="src/style.css">
+    
+    <title>UserAgentチェッカー</title>
+  </head>
+
+  <body>
+		<div id="navbar">
+
+		</div>
+
+		<div id="access">
+			<h1>UserAgentチェッカー</h1>
+			<p>このページではお使いのブラウザのUserAgentを表示します。</p>
+		</div>
+
+		<div id="main">
+			<p>Browser<br>
+				<span id="browser"></span>
+			</p>
+
+			<p>Device<br>
+				<span id="device"></span>
+			</p>
+
+			<p>UserAgent<br>
+				<span id="ua"></span>
+			</p>
+		</div>
+
+    <script src="src/main.js"></script>
+
+    <noscript>
+      <style>
+				#access,
+				#main{
+					display: none;
+				}
+			</style>
+			<div id="nojs">
+				<h1>ご利用にはJavaScriptを有効にしてください。</h1>
+			</div>
+    </noscript>
+  </body>
+</html>
